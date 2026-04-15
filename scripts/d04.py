@@ -1,0 +1,10 @@
+#Classe do número e onde ele se encaixa
+n = input('\033[32mDigite algo:\033[m ')
+print('\033[32mO tipo primitivo desse valor é:\033[m ', type(n))
+print('\033[32mSó tem espaços?\033[m ',(n.isspace()))
+print('\033[32mÉ um número?\033[m ',(n.isnumeric()))
+print('\033[32mÉ alfabetico?\033[m ',(n.isalpha()))
+print('\033[32mÉ alfanumerico?\033[m ',(n.isalnum()))
+print('\033[32mEstá em maiusculas?\033[m ',(n.isupper()))
+print('\033[32mEstá em minúsculas?\033[m ', (n.islower()))
+print('\033[32mEstá captalizada?\033[m ',(n.istitle()))
